@@ -215,7 +215,11 @@ section{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d3461', endColorstr='#076e93',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	color: white;
 	padding: 0;
-		margin-top: -100px;
+	margin-top: -100px;
+	
+	@media (max-width: 800px){
+		margin: 0;
+	}
 	.mask{
 		background: url("../imagenes/red.png");
 		background-repeat: no-repeat;

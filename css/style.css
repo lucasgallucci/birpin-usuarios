@@ -183,6 +183,9 @@ section {
   color: white;
   padding: 0;
   margin-top: -100px; }
+  @media (max-width: 800px) {
+    .s1 {
+      margin: 0; } }
   .s1 .mask {
     background: url("../imagenes/red.png");
     background-repeat: no-repeat;
